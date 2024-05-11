@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
 
 const EstudianteSchema = mongoose.Schema( {
-   idUsuario: {
-      type: Number,
-      required: false
-   },
+
     nombre: {
        type: String,
        required: false
-    }
+    },
+    email: {
+      type: String,
+      required: false
+   }
     
 });
 
